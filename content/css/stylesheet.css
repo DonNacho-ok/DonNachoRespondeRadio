@@ -4,3 +4,17 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body{
+    background-image: url("../images/fondo_logo.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-family: 'fuente-propia' ;
+    color: white;
+}
+
+#RadioSection{
+    margin: auto;
+}
