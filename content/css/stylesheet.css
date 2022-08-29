@@ -50,7 +50,8 @@ body{
 
 #radio_Widget{
     width: 60%;
-    height: 166px;
+    height: 170px;
+    border: transparent;
 }
 
 #texto_Radio{
