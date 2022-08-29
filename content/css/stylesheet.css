@@ -10,6 +10,9 @@ body{
     font-family: 'fuente-propia' ;
     color: white;
     background-image: url("../images/fondo_logo_blur.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -41,15 +44,50 @@ body{
     text-shadow: 1px 1px 1px white, 0 0 12.5px white, 0 0 2.5px white;
 }
 
-#radio_Widget{
-    width: 60%;
-    height: 170px;
-    border: transparent;
-}
-
 #texto_Radio{
     text-align: center;
     padding-top: 15px;
     font-size: 43px;
     text-shadow: 1px 1px 0.5px white, 0 0 6.25px white, 0 0 1.25px white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #radio_Widget{
+        width: 100%;
+        height: 170px;
+        border: transparent;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #radio_Widget{
+        width: 100%;
+        height: 170px;
+        border: transparent;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #radio_Widget{
+        width: 60%;
+        height: 170px;
+        border: transparent;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #radio_Widget{
+        width: 30%;
+        height: 170px;
+        border: transparent;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #radio_Widget{
+        width: 30%;
+        height: 170px;
+        border: transparent;
+    }
 }
