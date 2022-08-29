@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'fuente-propia';
+    src: url('../fonts/poiretone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'fuente-propia' ;
+    color: white;
+    background-image: url("../images/fondo_logo_blur.jpg");
+    background-size: cover;
+}
+
+.radio_Section{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.radio_container{
+    text-align: center;
+}
+
+.contact_Section{
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 16%;
+}
+
+.contact_Image{
+    width: 100px;
+    height: 100px;
+    margin-left: 250px;
+}
+
+#titulo_Radio{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 85px;
+    text-shadow: 1px 1px 1px white, 0 0 12.5px white, 0 0 2.5px white;
+}
+
+#radio_Widget{
+    width: 60%;
+    height: 170px;
+    border: transparent;
+}
+
+#texto_Radio{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 43px;
+    text-shadow: 1px 1px 0.5px white, 0 0 6.25px white, 0 0 1.25px white;
+}
